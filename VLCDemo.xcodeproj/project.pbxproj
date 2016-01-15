@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F79DBC1C28EB2500F42801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79DBB1C28EB2500F42801 /* main.m */; };
+		54F79DBF1C28EB2500F42801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79DBE1C28EB2500F42801 /* AppDelegate.m */; };
+		54F79DC21C28EB2500F42801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79DC11C28EB2500F42801 /* ViewController.m */; };
+		54F79DC51C28EB2500F42801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F79DC31C28EB2500F42801 /* Main.storyboard */; };
+		54F79DC71C28EB2500F42801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F79DC61C28EB2500F42801 /* Assets.xcassets */; };
+		54F79DCA1C28EB2500F42801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F79DC81C28EB2500F42801 /* LaunchScreen.storyboard */; };
+		54F79DD51C28EB2500F42801 /* VLCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79DD41C28EB2500F42801 /* VLCDemoTests.m */; };
+		54F79DE01C28EB2500F42801 /* VLCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79DDF1C28EB2500F42801 /* VLCDemoUITests.m */; };
+		54F79E0B1C28F3E500F42801 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E0A1C28F3E500F42801 /* libbz2.1.0.tbd */; };
+		54F79E0D1C28F3F100F42801 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E0C1C28F3F100F42801 /* libiconv.2.4.0.tbd */; };
+		54F79E0F1C28F3F900F42801 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E0E1C28F3F900F42801 /* libstdc++.6.0.9.tbd */; };
+		54F79E111C28F40100F42801 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E101C28F40100F42801 /* Security.framework */; };
+		54F79E131C28F40D00F42801 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E121C28F40D00F42801 /* QuartzCore.framework */; };
+		54F79E151C28F41800F42801 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E141C28F41800F42801 /* CoreText.framework */; };
+		54F79E171C28F42700F42801 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E161C28F42700F42801 /* CFNetwork.framework */; };
+		54F79E191C28F43100F42801 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E181C28F43100F42801 /* OpenGLES.framework */; };
+		54F79E1B1C28F43B00F42801 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E1A1C28F43B00F42801 /* AudioToolbox.framework */; };
+		54F79E1F1C28F44E00F42801 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E1E1C28F44E00F42801 /* CoreGraphics.framework */; };
+		54F79E251C28F4BC00F42801 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F79E241C28F4BC00F42801 /* MobileVLCKit.framework */; };
+		54F79E401C28FADF00F42801 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E281C28FADF00F42801 /* MASCompositeConstraint.m */; };
+		54F79E411C28FADF00F42801 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E2B1C28FADF00F42801 /* MASConstraint.m */; };
+		54F79E421C28FADF00F42801 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E2D1C28FADF00F42801 /* MASConstraintMaker.m */; };
+		54F79E431C28FADF00F42801 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E2F1C28FADF00F42801 /* MASLayoutConstraint.m */; };
+		54F79E441C28FADF00F42801 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E331C28FADF00F42801 /* MASViewAttribute.m */; };
+		54F79E451C28FADF00F42801 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E351C28FADF00F42801 /* MASViewConstraint.m */; };
+		54F79E461C28FADF00F42801 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E371C28FADF00F42801 /* NSArray+MASAdditions.m */; };
+		54F79E471C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E3A1C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		54F79E481C28FADF00F42801 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E3C1C28FADF00F42801 /* View+MASAdditions.m */; };
+		54F79E491C28FADF00F42801 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E3F1C28FADF00F42801 /* ViewController+MASAdditions.m */; };
+		54F79E501C28FD9800F42801 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F79E4F1C28FD9800F42801 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F79DD11C28EB2500F42801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F79DAF1C28EB2500F42801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F79DB61C28EB2500F42801;
+			remoteInfo = VLCDemo;
+		};
+		54F79DDC1C28EB2500F42801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F79DAF1C28EB2500F42801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F79DB61C28EB2500F42801;
+			remoteInfo = VLCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F79DB71C28EB2500F42801 /* VLCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F79DBB1C28EB2500F42801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F79DBD1C28EB2500F42801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54F79DBE1C28EB2500F42801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54F79DC01C28EB2500F42801 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54F79DC11C28EB2500F42801 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54F79DC41C28EB2500F42801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F79DC61C28EB2500F42801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F79DC91C28EB2500F42801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F79DCB1C28EB2500F42801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F79DD01C28EB2500F42801 /* VLCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F79DD41C28EB2500F42801 /* VLCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCDemoTests.m; sourceTree = "<group>"; };
+		54F79DD61C28EB2500F42801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F79DDB1C28EB2500F42801 /* VLCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F79DDF1C28EB2500F42801 /* VLCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCDemoUITests.m; sourceTree = "<group>"; };
+		54F79DE11C28EB2500F42801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F79E0A1C28F3E500F42801 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		54F79E0C1C28F3F100F42801 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		54F79E0E1C28F3F900F42801 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		54F79E101C28F40100F42801 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		54F79E121C28F40D00F42801 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		54F79E141C28F41800F42801 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		54F79E161C28F42700F42801 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		54F79E181C28F43100F42801 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		54F79E1A1C28F43B00F42801 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		54F79E1E1C28F44E00F42801 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54F79E241C28F4BC00F42801 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = SOURCE_ROOT; };
+		54F79E271C28FADF00F42801 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		54F79E281C28FADF00F42801 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		54F79E291C28FADF00F42801 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		54F79E2A1C28FADF00F42801 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		54F79E2B1C28FADF00F42801 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		54F79E2C1C28FADF00F42801 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		54F79E2D1C28FADF00F42801 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		54F79E2E1C28FADF00F42801 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		54F79E2F1C28FADF00F42801 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		54F79E301C28FADF00F42801 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		54F79E311C28FADF00F42801 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		54F79E321C28FADF00F42801 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		54F79E331C28FADF00F42801 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		54F79E341C28FADF00F42801 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		54F79E351C28FADF00F42801 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		54F79E361C28FADF00F42801 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		54F79E371C28FADF00F42801 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		54F79E381C28FADF00F42801 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		54F79E391C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		54F79E3A1C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		54F79E3B1C28FADF00F42801 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		54F79E3C1C28FADF00F42801 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		54F79E3D1C28FADF00F42801 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		54F79E3E1C28FADF00F42801 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		54F79E3F1C28FADF00F42801 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		54F79E4E1C28FD9800F42801 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		54F79E4F1C28FD9800F42801 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F79DB41C28EB2500F42801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F79E251C28F4BC00F42801 /* MobileVLCKit.framework in Frameworks */,
+				54F79E1F1C28F44E00F42801 /* CoreGraphics.framework in Frameworks */,
+				54F79E1B1C28F43B00F42801 /* AudioToolbox.framework in Frameworks */,
+				54F79E191C28F43100F42801 /* OpenGLES.framework in Frameworks */,
+				54F79E171C28F42700F42801 /* CFNetwork.framework in Frameworks */,
+				54F79E151C28F41800F42801 /* CoreText.framework in Frameworks */,
+				54F79E131C28F40D00F42801 /* QuartzCore.framework in Frameworks */,
+				54F79E111C28F40100F42801 /* Security.framework in Frameworks */,
+				54F79E0F1C28F3F900F42801 /* libstdc++.6.0.9.tbd in Frameworks */,
+				54F79E0D1C28F3F100F42801 /* libiconv.2.4.0.tbd in Frameworks */,
+				54F79E0B1C28F3E500F42801 /* libbz2.1.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DCD1C28EB2500F42801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DD81C28EB2500F42801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F79DAE1C28EB2500F42801 = {
+			isa = PBXGroup;
+			children = (
+				54F79DB91C28EB2500F42801 /* VLCDemo */,
+				54F79DD31C28EB2500F42801 /* VLCDemoTests */,
+				54F79DDE1C28EB2500F42801 /* VLCDemoUITests */,
+				54F79DB81C28EB2500F42801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F79DB81C28EB2500F42801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F79DB71C28EB2500F42801 /* VLCDemo.app */,
+				54F79DD01C28EB2500F42801 /* VLCDemoTests.xctest */,
+				54F79DDB1C28EB2500F42801 /* VLCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F79DB91C28EB2500F42801 /* VLCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54F79DBD1C28EB2500F42801 /* AppDelegate.h */,
+				54F79DBE1C28EB2500F42801 /* AppDelegate.m */,
+				54F79DC01C28EB2500F42801 /* ViewController.h */,
+				54F79DC11C28EB2500F42801 /* ViewController.m */,
+				54F79E4E1C28FD9800F42801 /* MainViewController.h */,
+				54F79E4F1C28FD9800F42801 /* MainViewController.m */,
+				54F79DC31C28EB2500F42801 /* Main.storyboard */,
+				54F79DC61C28EB2500F42801 /* Assets.xcassets */,
+				54F79DC81C28EB2500F42801 /* LaunchScreen.storyboard */,
+				54F79DCB1C28EB2500F42801 /* Info.plist */,
+				54F79E261C28FADF00F42801 /* Masonry */,
+				54F79DF31C28EF1300F42801 /* framework */,
+				54F79DBA1C28EB2500F42801 /* Supporting Files */,
+			);
+			path = VLCDemo;
+			sourceTree = "<group>";
+		};
+		54F79DBA1C28EB2500F42801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F79DBB1C28EB2500F42801 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54F79DD31C28EB2500F42801 /* VLCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F79DD41C28EB2500F42801 /* VLCDemoTests.m */,
+				54F79DD61C28EB2500F42801 /* Info.plist */,
+			);
+			path = VLCDemoTests;
+			sourceTree = "<group>";
+		};
+		54F79DDE1C28EB2500F42801 /* VLCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F79DDF1C28EB2500F42801 /* VLCDemoUITests.m */,
+				54F79DE11C28EB2500F42801 /* Info.plist */,
+			);
+			path = VLCDemoUITests;
+			sourceTree = "<group>";
+		};
+		54F79DF31C28EF1300F42801 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				54F79E241C28F4BC00F42801 /* MobileVLCKit.framework */,
+				54F79E1E1C28F44E00F42801 /* CoreGraphics.framework */,
+				54F79E1A1C28F43B00F42801 /* AudioToolbox.framework */,
+				54F79E181C28F43100F42801 /* OpenGLES.framework */,
+				54F79E161C28F42700F42801 /* CFNetwork.framework */,
+				54F79E141C28F41800F42801 /* CoreText.framework */,
+				54F79E121C28F40D00F42801 /* QuartzCore.framework */,
+				54F79E101C28F40100F42801 /* Security.framework */,
+				54F79E0E1C28F3F900F42801 /* libstdc++.6.0.9.tbd */,
+				54F79E0C1C28F3F100F42801 /* libiconv.2.4.0.tbd */,
+				54F79E0A1C28F3E500F42801 /* libbz2.1.0.tbd */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		54F79E261C28FADF00F42801 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				54F79E271C28FADF00F42801 /* MASCompositeConstraint.h */,
+				54F79E281C28FADF00F42801 /* MASCompositeConstraint.m */,
+				54F79E291C28FADF00F42801 /* MASConstraint+Private.h */,
+				54F79E2A1C28FADF00F42801 /* MASConstraint.h */,
+				54F79E2B1C28FADF00F42801 /* MASConstraint.m */,
+				54F79E2C1C28FADF00F42801 /* MASConstraintMaker.h */,
+				54F79E2D1C28FADF00F42801 /* MASConstraintMaker.m */,
+				54F79E2E1C28FADF00F42801 /* MASLayoutConstraint.h */,
+				54F79E2F1C28FADF00F42801 /* MASLayoutConstraint.m */,
+				54F79E301C28FADF00F42801 /* Masonry.h */,
+				54F79E311C28FADF00F42801 /* MASUtilities.h */,
+				54F79E321C28FADF00F42801 /* MASViewAttribute.h */,
+				54F79E331C28FADF00F42801 /* MASViewAttribute.m */,
+				54F79E341C28FADF00F42801 /* MASViewConstraint.h */,
+				54F79E351C28FADF00F42801 /* MASViewConstraint.m */,
+				54F79E361C28FADF00F42801 /* NSArray+MASAdditions.h */,
+				54F79E371C28FADF00F42801 /* NSArray+MASAdditions.m */,
+				54F79E381C28FADF00F42801 /* NSArray+MASShorthandAdditions.h */,
+				54F79E391C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				54F79E3A1C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				54F79E3B1C28FADF00F42801 /* View+MASAdditions.h */,
+				54F79E3C1C28FADF00F42801 /* View+MASAdditions.m */,
+				54F79E3D1C28FADF00F42801 /* View+MASShorthandAdditions.h */,
+				54F79E3E1C28FADF00F42801 /* ViewController+MASAdditions.h */,
+				54F79E3F1C28FADF00F42801 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F79DB61C28EB2500F42801 /* VLCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F79DE41C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemo" */;
+			buildPhases = (
+				54F79DB31C28EB2500F42801 /* Sources */,
+				54F79DB41C28EB2500F42801 /* Frameworks */,
+				54F79DB51C28EB2500F42801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLCDemo;
+			productName = VLCDemo;
+			productReference = 54F79DB71C28EB2500F42801 /* VLCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F79DCF1C28EB2500F42801 /* VLCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F79DE71C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemoTests" */;
+			buildPhases = (
+				54F79DCC1C28EB2500F42801 /* Sources */,
+				54F79DCD1C28EB2500F42801 /* Frameworks */,
+				54F79DCE1C28EB2500F42801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F79DD21C28EB2500F42801 /* PBXTargetDependency */,
+			);
+			name = VLCDemoTests;
+			productName = VLCDemoTests;
+			productReference = 54F79DD01C28EB2500F42801 /* VLCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F79DDA1C28EB2500F42801 /* VLCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F79DEA1C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemoUITests" */;
+			buildPhases = (
+				54F79DD71C28EB2500F42801 /* Sources */,
+				54F79DD81C28EB2500F42801 /* Frameworks */,
+				54F79DD91C28EB2500F42801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F79DDD1C28EB2500F42801 /* PBXTargetDependency */,
+			);
+			name = VLCDemoUITests;
+			productName = VLCDemoUITests;
+			productReference = 54F79DDB1C28EB2500F42801 /* VLCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F79DAF1C28EB2500F42801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "WeiCheng—iOS_1";
+				TargetAttributes = {
+					54F79DB61C28EB2500F42801 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AY6EP74J52;
+					};
+					54F79DCF1C28EB2500F42801 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 54F79DB61C28EB2500F42801;
+					};
+					54F79DDA1C28EB2500F42801 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 54F79DB61C28EB2500F42801;
+					};
+				};
+			};
+			buildConfigurationList = 54F79DB21C28EB2500F42801 /* Build configuration list for PBXProject "VLCDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F79DAE1C28EB2500F42801;
+			productRefGroup = 54F79DB81C28EB2500F42801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F79DB61C28EB2500F42801 /* VLCDemo */,
+				54F79DCF1C28EB2500F42801 /* VLCDemoTests */,
+				54F79DDA1C28EB2500F42801 /* VLCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F79DB51C28EB2500F42801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F79DCA1C28EB2500F42801 /* LaunchScreen.storyboard in Resources */,
+				54F79DC71C28EB2500F42801 /* Assets.xcassets in Resources */,
+				54F79DC51C28EB2500F42801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DCE1C28EB2500F42801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DD91C28EB2500F42801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F79DB31C28EB2500F42801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F79E471C28FADF00F42801 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				54F79E451C28FADF00F42801 /* MASViewConstraint.m in Sources */,
+				54F79E401C28FADF00F42801 /* MASCompositeConstraint.m in Sources */,
+				54F79E461C28FADF00F42801 /* NSArray+MASAdditions.m in Sources */,
+				54F79DC21C28EB2500F42801 /* ViewController.m in Sources */,
+				54F79DBF1C28EB2500F42801 /* AppDelegate.m in Sources */,
+				54F79E431C28FADF00F42801 /* MASLayoutConstraint.m in Sources */,
+				54F79DBC1C28EB2500F42801 /* main.m in Sources */,
+				54F79E491C28FADF00F42801 /* ViewController+MASAdditions.m in Sources */,
+				54F79E481C28FADF00F42801 /* View+MASAdditions.m in Sources */,
+				54F79E441C28FADF00F42801 /* MASViewAttribute.m in Sources */,
+				54F79E501C28FD9800F42801 /* MainViewController.m in Sources */,
+				54F79E411C28FADF00F42801 /* MASConstraint.m in Sources */,
+				54F79E421C28FADF00F42801 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DCC1C28EB2500F42801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F79DD51C28EB2500F42801 /* VLCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F79DD71C28EB2500F42801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F79DE01C28EB2500F42801 /* VLCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F79DD21C28EB2500F42801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F79DB61C28EB2500F42801 /* VLCDemo */;
+			targetProxy = 54F79DD11C28EB2500F42801 /* PBXContainerItemProxy */;
+		};
+		54F79DDD1C28EB2500F42801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F79DB61C28EB2500F42801 /* VLCDemo */;
+			targetProxy = 54F79DDC1C28EB2500F42801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F79DC31C28EB2500F42801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F79DC41C28EB2500F42801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F79DC81C28EB2500F42801 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F79DC91C28EB2500F42801 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F79DE21C28EB2500F42801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54F79DE31C28EB2500F42801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F79DE51C28EB2500F42801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/Release-iphonesimulator/include\"";
+				INFOPLIST_FILE = VLCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F79DE61C28EB2500F42801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/Release-iphonesimulator/include\"";
+				INFOPLIST_FILE = VLCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54F79DE81C28EB2500F42801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VLCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VLCDemo.app/VLCDemo";
+			};
+			name = Debug;
+		};
+		54F79DE91C28EB2500F42801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VLCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VLCDemo.app/VLCDemo";
+			};
+			name = Release;
+		};
+		54F79DEB1C28EB2500F42801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VLCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VLCDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		54F79DEC1C28EB2500F42801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VLCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunyang.VLCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VLCDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F79DB21C28EB2500F42801 /* Build configuration list for PBXProject "VLCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F79DE21C28EB2500F42801 /* Debug */,
+				54F79DE31C28EB2500F42801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F79DE41C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F79DE51C28EB2500F42801 /* Debug */,
+				54F79DE61C28EB2500F42801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F79DE71C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F79DE81C28EB2500F42801 /* Debug */,
+				54F79DE91C28EB2500F42801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F79DEA1C28EB2500F42801 /* Build configuration list for PBXNativeTarget "VLCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F79DEB1C28EB2500F42801 /* Debug */,
+				54F79DEC1C28EB2500F42801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F79DAF1C28EB2500F42801 /* Project object */;
+}
